@@ -1,0 +1,32 @@
+input {
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border: 1px solid #c1c1c1;
+    outline: none;
+}
+.addForm {
+    display: flex;
+    flex-direction: column;
+
+}
+@media (max-width:600px) {
+    .addForm {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:530px) {
+    input {
+        width: 150px;
+    }
+}
+
+@media (max-width:350px) {
+    input {
+        width: 100px;
+    }
+}

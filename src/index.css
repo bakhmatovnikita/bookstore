@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #3498db;
+  color: white;
+}
+button {
+  background-color: #5fcec0;
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #c1c1c1;
+  transition: 0.5s;
+}
+
+h1 {
+  color: #c1c1c1;
+  padding-left: 10px;
+}
+@media (max-width: 1000px) {
+  button {
+    width: 100px;
+  }
+}
+@media (max-width: 450px) {
+  button {
+    width: 60px;
+  }
+}

@@ -1,0 +1,36 @@
+.bookName {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.deleteBook {
+    background-color: tomato;
+}
+.deleteBook:hover {
+    background-color: #1c1c1c;
+}
+.itemContainer {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+}
+.infoItems {
+    border-bottom: 2px solid #c1c1c1;
+    padding: 10px 0px 10px 0px;
+}
+@media (max-width:1250px) {
+    .itemContainer {
+        grid-template-columns: 60% 40%;
+    }
+}
+@media (max-width:900px) {
+    .itemContainer {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:530px) {
+    .infoItems {
+        border-bottom: none;
+        font-size: 14px;
+    }
+}
